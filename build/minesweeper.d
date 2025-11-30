@@ -1,5 +1,5 @@
-helloWorld.o: \
- C\:/Users/Thoma/OneDrive/Documents/code/PrizmSDK-win-0.6/projects/example/src/helloWorld.c \
+minesweeper.o: \
+ C\:/Users/Thoma/OneDrive/Documents/code/PrizmSDK-win-0.6/projects/minesweeper/src/minesweeper.c \
  C\:/Users/Thoma/OneDrive/Documents/code/PrizmSDK-win-0.6/include/fxcg/display.h \
  C\:/Users/Thoma/OneDrive/Documents/code/PrizmSDK-win-0.6/include/fxcg/keyboard.h \
  C\:/Users/Thoma/OneDrive/Documents/code/PrizmSDK-win-0.6/include/string.h \
