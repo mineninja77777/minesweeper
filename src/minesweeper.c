@@ -359,7 +359,8 @@ void setup() // sets up game
     {
         int x = rand() % 13;
         int y = rand() % 13;
-        mines[x][y] = 1;
+        if (mines[y][x] == 1) { i--; continue; }
+        mines[y][x] = 1;
     }
 }
 
@@ -377,8 +378,6 @@ int main()
     while(1)
     {
         GetKey(&key);
-        
-
         
 
         if (key == 0x7542)
